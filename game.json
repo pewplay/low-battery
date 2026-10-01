@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Low Battery",
+  "description": "Guide a sliding plug through 21 tangled cable mazes to charge your dying phone in this free puzzle game you can play in your browser.",
+  "about": "Your phone is down to 13% and the desk is a mess of cables. In Low Battery you steer a charging plug across a grid until it slides into the socket. Pick a direction and the plug keeps going until something stops it, leaving a cable behind it, so every turn counts and some levels give you only one or two.\n\nThe 21 hand-made mazes add new ideas as you go: arrow tiles that redirect the plug, pieces you drag onto the board yourself, red sockets that short-circuit you, striped blocks that break when you bump them, a switch that clears every wall and a recycler that wipes the board clean. Your own cable becomes an obstacle too, and each solved maze charges the battery a little closer to full.\n\nOriginally created by Marvin for js13kGames 2024 as 13% LOW.",
+  "howToPlay": "Tap one of the arrows around the plug to send it sliding in that direction; it only stops when it hits a wall, the board edge or its own cable. Drag the pieces above the board onto empty cells to redirect or block the plug before you move. Reach the green socket before the turn counter runs out, and avoid red sockets and straight cable pieces, which cause a short circuit.",
+  "controls": [
+    { "input": "Click / Tap", "action": "Choose the direction next to the plug" },
+    { "input": "Drag", "action": "Place a piece from the tray onto the board" },
+    { "input": "Arrow keys / WASD", "action": "Move the plug" },
+    { "input": "R / M / Esc", "action": "Restart, mute, back to the level list" }
+  ],
+  "tips": [
+    "Plan the whole route before you move: once the plug starts sliding it only stops when something blocks it.",
+    "Bumping into a corner of your own cable just stops the plug, but hitting a straight piece shorts it out.",
+    "Striped blocks make great one-time brakes: the plug stops in front of them and they disappear.",
+    "Stepping on the recycler clears your cable and every placed piece, which can reopen paths you already used."
+  ],
+  "faq": [
+    { "question": "Is Low Battery free to play?", "answer": "Yes, it is completely free and runs in your browser with no download or sign-up." },
+    { "question": "Can I play Low Battery on my phone or tablet?", "answer": "Yes. You tap to steer and drag pieces with your finger, and on tall phone screens wide boards are turned sideways so the cells stay big enough to hit." },
+    { "question": "Is every level solvable?", "answer": "Yes, all 21 mazes have at least one solution, and many have several, so try a different route if you get stuck." }
+  ],
+  "category": "Puzzle",
+  "tags": ["puzzle", "maze", "logic", "sliding", "pixel art", "brain teaser"],
+  "author": "Marvin",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": ["screenshots/1.png", "screenshots/2.png", "screenshots/3.png"],
+  "added": "2026-10-01",
+  "draft": false
+}
